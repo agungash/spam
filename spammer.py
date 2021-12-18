@@ -123,7 +123,7 @@ def ramah():
 		except Exception as ex:exit(str(ex))
 		except (KeyboardInterrupt,EOFError):exit("[!] Exit")
 def ganteng():
-	print(f"{p}"+title+f"{h}\nCreated By Ahmad Agung Ash Shiddiqy | No System is Safe{p}\n\n-Youtube : https://www.youtube.com/channel/UCcaW1vzrdRV_KAdLRlWIdHw\n-Github : https://github.com/agungash\n-Instagram : https://www.instagram.com/ahmad_agung24\n-Facebook : https://web.facebook.com/profile.php?id=100014656113263\n-Whatsapp : https://wa.me/+6285788256915\n-Email : agungashjr@gmail.com\n")
+	print(f"{p}"+title+f"{h}\nCreated By Ahmad Agung Ash Shiddiqy | No System is Safe{p}\n\nSpam SMS & WhatsApp Ke Semua Operator\n\n-Youtube : https://www.youtube.com/channel/UCcaW1vzrdRV_KAdLRlWIdHw\n-Github : https://github.com/agungash\n-Instagram : https://www.instagram.com/ahmad_agung24\n-Facebook : https://web.facebook.com/profile.php?id=100014656113263\n-Whatsapp : https://wa.me/+6285788256915\n-Email : agungashjr@gmail.com\n")
 if __name__=="__main__":
 	ganteng()
 	ramah()
