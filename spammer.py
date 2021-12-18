@@ -95,33 +95,34 @@ def bingung():
 	if(pilih=="y"):
 		ramah()
 	elif(pilih=="t"):
-		exite("Thanks You!")
+		exit("Thanks You!")
 	else:
 		print("Correct Input!")
 		bingung()
 def ramah():
 	while True:
 		try:
-			a=input("[x] Target Number 08×××\t: ")
-			asu=a[0:2]
-			if a in(""," "):print("[!] Dont Empty")
-			elif "08" not in asu:print("[!] Use Number 08xxx\n")
-			elif len(a)<=10:print("[!] The Number to be Spam is at Least 11 Digits")
-			elif a=="083870396203":print("[!] You won't be Able to Spam the Stupid Kid Base Script Owner!\n")
+			a=input("[x] Masukkan Nomor 08×××\t: ")
+			cantik=a[0:2]
+			if a in(""," "):print("[!] Jangan Dikosongkan\n")
+			elif "08" not in cantik:print("[!] Masukkan Nomor 08xxx\n")
+			elif len(a)<=10:print("[!] Nomor Terlalu Pendek, Butuh Setidaknya 11 Digit\n")
+			elif a=="085788256915":print("[!] Anda Tidak Dapat Melakukan Spam Kepada Pemilik Script!\n")
 			else:
 				try:
-					keren=int(input("[x] Enter The Amount of Spam\t: "))
+					keren=int(input("[x] Banyak Spam (angka)\t: "))
 				except:
-					print("Enter Number Format, Not Letters!")
-					cok()
+					print("[!] Banyak Spam Diisi Angka dan Jangan Dikosongkan\n")
+					ramah()
 				time.sleep(2)
 				print("\n[x] Running Spam...")
+				print("[x] Jika Tidak Ada Tulisan 'Connection Error 404', Berarti Spam Berhasil \n[x] Tulis 'python spammer.py' Untuk Mengulang")
 				b=a[1:12] 
 				c="62"+b
 				spam(b,a,c).mulai(keren)
 				break
 		except Exception as ex:exit(str(ex))
-		except (KeyboardInterrupt,EOFError):exit("[!] Exit")
+		except (KeyboardInterrupt,EOFError):exit("[!] Exit")	
 def ganteng():
 	print(f"{p}"+title+f"{h}\nCreated By Ahmad Agung Ash Shiddiqy | No System is Safe{p}\n\nSpam SMS & WhatsApp Ke Semua Operator\n\n-Youtube : https://www.youtube.com/channel/UCcaW1vzrdRV_KAdLRlWIdHw\n-Github : https://github.com/agungash\n-Instagram : https://www.instagram.com/ahmad_agung24\n-Facebook : https://web.facebook.com/profile.php?id=100014656113263\n-Whatsapp : https://wa.me/+6285788256915\n-Email : agungashjr@gmail.com\n")
 if __name__=="__main__":
