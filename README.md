@@ -1,17 +1,15 @@
-# Spammer Sms
-Tool For Spam Sms All Operator
-Jangan lupa berikan starnya hehe
+# Spammer SMS
+Spam SMS Ke Semua Operator
 
 ### Install :
 ````bash
 $ pkg update && pkg upgrade 
 $ pkg install python
 $ pkg install git 
-$ pkg install bs4
 $ pip install pyfiglet
+$ pip install --upgrade pip (opt)
 $ pip install requests
 $ git clone https://github.com/agungash/spam.git
-$ cd spammer
-$ ls
+$ cd spam
 $ python spammer.py
 ````
