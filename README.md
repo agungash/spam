@@ -1,5 +1,5 @@
-# Spammer SMS
-Spam SMS Ke Semua Operator
+# Spam SMS & WhatsApp
+Spam SMS & WhatsApp Ke Semua Operator
 
 ### Install :
 ````bash
