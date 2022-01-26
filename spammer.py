@@ -89,15 +89,14 @@ class spam:
 		except (KeyboardInterrupt,EOFError):exit("[!] Exit")
 __import__("os").system("clear")
 def bingung():
-	print(f"{h}\n[√] All Spam Has Been Sent Successfully{p}\n")
-	print(f"Want to Spam Again??\nType y for Yes and Type t for No\n")
+	print(f"{h}\n[√] Semua Spam Telah Berhasil Dikirim{p}\n")
+	print(f"Mau Spam Lagi?\nTulis 'y' untuk ya atau tulis 't' untuk tidak\n")
 	pilih=input("y/t : ")
 	if(pilih=="y"):
 		ramah()
 	elif(pilih=="t"):
-		exit("Thanks You!")
+		exit("Terima Kasih!")
 	else:
-		print("Correct Input!")
 		bingung()
 def ramah():
 	while True:
@@ -107,7 +106,7 @@ def ramah():
 			if a in(""," "):print("[!] Jangan Dikosongkan\n")
 			elif "08" not in cantik:print("[!] Masukkan Nomor 08xxx\n")
 			elif len(a)<=10:print("[!] Nomor Terlalu Pendek, Butuh Setidaknya 11 Digit\n")
-			elif a=="085788256915":print("[!] Anda Tidak Dapat Melakukan Spam Kepada Pemilik Script!\n")
+			elif a=="081367907108":print("[!] Anda Tidak Dapat Melakukan Spam Kepada Pemilik Script!\n")
 			else:
 				try:
 					keren=int(input("[x] Banyak Spam (angka)\t: "))
@@ -115,7 +114,7 @@ def ramah():
 					print("[!] Banyak Spam Diisi Angka dan Jangan Dikosongkan\n")
 					ramah()
 				time.sleep(2)
-				print("\n[x] Running Spam...")
+				print("\n[x] Menjalankan Spam...")
 				print("[x] Jika Tidak Ada Tulisan 'Connection Error 404', Berarti Spam Berhasil \n[x] Tulis 'python spammer.py' Untuk Mengulang")
 				b=a[1:12] 
 				c="62"+b
@@ -124,7 +123,7 @@ def ramah():
 		except Exception as ex:exit(str(ex))
 		except (KeyboardInterrupt,EOFError):exit("[!] Exit")	
 def ganteng():
-	print(f"{p}"+title+f"{h}\nCreated By Ahmad Agung Ash Shiddiqy | No System is Safe{p}\n\nSpam SMS & WhatsApp Ke Semua Operator\n\n-Youtube : https://www.youtube.com/channel/UCcaW1vzrdRV_KAdLRlWIdHw\n-Github : https://github.com/agungash\n-Instagram : https://www.instagram.com/ahmad_agung24\n-Facebook : https://web.facebook.com/profile.php?id=100014656113263\n-Whatsapp : https://wa.me/+6285788256915\n-Email : agungashjr@gmail.com\n")
+	print(f"{p}"+title+f"{h}\nCreated By Ahmad Agung Ash Shiddiqy | No System is Safe{p}\n\nSpam SMS & WhatsApp Ke Semua Operator\n")
 if __name__=="__main__":
 	ganteng()
 	ramah()
