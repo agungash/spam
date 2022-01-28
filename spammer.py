@@ -106,7 +106,7 @@ def ramah():
 			if a in(""," "):print("[!] Jangan Dikosongkan\n")
 			elif "08" not in cantik:print("[!] Masukkan Nomor 08xxx\n")
 			elif len(a)<=10:print("[!] Nomor Terlalu Pendek, Butuh Setidaknya 11 Digit\n")
-			elif a=="081367907108":print("[!] Anda Tidak Dapat Melakukan Spam Kepada Pemilik Script!\n")
+			elif a=="085788256915":print("[!] Anda Tidak Dapat Melakukan Spam Kepada Pemilik Script!\n")
 			else:
 				try:
 					keren=int(input("[x] Banyak Spam (angka)\t: "))
